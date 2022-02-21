@@ -1225,7 +1225,7 @@ function Stand()
 		Sound.Pitch = 1
 		Sound.Volume = 121
 		Sound.Looped = false
-		Sound.SoundId = "rbxassetid://463010917"
+		Sound.SoundId = "rbxassetid://5371606324"
 		Sound:play()
 		coroutine.resume(coroutine.create(function()
 		for i,v in pairs(mas:children()) do
@@ -1582,7 +1582,7 @@ function StrongOra()
 		SH2.C0 = clerp(SH2.C0,CFrame.new(0,1.5,0)*CFrame.Angles(0,0.5,0),0.3)
 		end
 		local Ora = Instance.new("Sound",ST)
-		Ora.SoundId = "rbxassetid://271120244"
+		Ora.SoundId = "rbxassetid://5592823569"
 		Ora.Pitch = 1
 		Ora.Looped = false
 		Ora.Volume = 12312
@@ -1619,10 +1619,10 @@ function OHOra()
 		Pause = true
 		Loop = true
 		SoundZ = Instance.new("Sound",ST)
-		SoundZ.SoundId = "rbxassetid://791374350"
+		SoundZ.SoundId = "rbxassetid://7078788117"
 		SoundZ.Volume = 2
 		SoundZ.Looped = true
-		SoundZ.Pitch = 0.95
+		SoundZ.Pitch = 1
 		SoundZ:play()
 		while Loop do
 			local HB = Instance.new("Part",SRA)
